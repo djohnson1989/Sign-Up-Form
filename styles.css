@@ -1,0 +1,157 @@
+.container {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #807fbf;
+    margin: 0 auto;
+    width: 50%;
+    border: #444 solid 2px;
+    margin-top: 10%;
+  }
+  
+  .container2 {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #807fbf;
+    margin: 0 auto;
+    width: 50%;
+    border: #444 solid 3px;
+    margin-top: 10px;
+  }
+  
+  #instruction {
+    font-size: 20px;
+    margin: 1em;
+  }
+  
+  #newtask{
+    position: relative;
+    padding: 30px 15px;
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px;
+
+  }
+
+  #newtask input{
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid;
+    padding: 12px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  #newtask input :focus{
+    outline: none;
+    border-color: #7F00FF;
+
+  }
+
+  #newtask button{
+    position: relative;
+    float: center;
+    width: 40px;
+    height: 42px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    background: #FF007F;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  #tasks{
+    width: 80%;
+    position: relative;
+    margin-top: 30px;
+    background: #fff;
+    padding: 30px 15px;
+    border-radius: 5px;
+  }
+
+  .task{
+    background: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #F6EEF9;
+  }
+
+  .task span{
+    font-size: 15px;
+    font-weight: 40px;
+    cursor: pointer;
+
+  }
+
+  .task button{
+    border: none;
+    background: #FF007F;
+    height: 100%;
+    width: 40px;
+    color: #fff;
+    border-radius: 5px;
+    cursor:pointer;
+  }
+
+
+
+  #product {
+    width: 50%;
+    border: #444 solid 3px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.1em;
+  }
+  
+  #enter {
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: green;
+    color: #fff;
+    border: #444 solid 4px;
+    height: 40px;
+    width: 140px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  
+  div#output {
+    display: none;
+    border: #444 solid 2px;
+    margin: 3%;
+  }
+  
+  div {
+    border: #444 solid 2px;
+    margin: 5%;
+  
+    font-size: 1.4rem;
+  }
